@@ -1,0 +1,1 @@
+define(["wc/dom/initialise","wc/ui/ajax/processResponse"],function(e,t){"use strict";return e.register(new function(){function e(e,t){var i,n=e.getAttribute("aria-live");n&&(t.getElementById?i=t.getElementById(e.id):t.querySelector&&(i=t.querySelector("#"+e.id)),i&&i.setAttribute("aria-live",n))}this.postInit=function(){t.subscribe(e)}})});
